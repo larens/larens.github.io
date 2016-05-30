@@ -1,5 +1,4 @@
 deploy:
   type: github
   repository: git@github.com:larens/larens.github.com.git
-  例如我的：repository: git@github.com:larens/larens.github.com.git
   branch: master
