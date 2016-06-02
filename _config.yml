@@ -3,18 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Larens
-subtitle:
-description:
+title: Larens Notes
+subtitle: A draft of this designer
+description: confidently in the direction of your dreams. Live the life you have imagined. 
 author: larens
 language: zh-Hans
 timezone:
+avatar: /images/avatar.png
+duoshuo_shortname: larensnotes
+baidu_analytics: 677ab36f8b07d80c42e342d363d36de4
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://larens.github.io/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -30,7 +33,7 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: true # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
@@ -46,6 +49,10 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  design: design
+  idea: idea
+  read: read
+  
 tag_map:
 
 # Date / Time format
@@ -68,4 +75,11 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: git@github.com:larens/larens.github.io
+  branch: master
+  
+# Local Search
+search:
+  path: search.xml
+  field: post
