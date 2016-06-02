@@ -79,7 +79,3 @@ deploy:
   repository: git@github.com:larens/larens.github.io
   branch: master
   
-# Local Search
-search:
-  path: search.xml
-  field: post
