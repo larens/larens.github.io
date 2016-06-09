@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://larens.github.io/"/>
-  <updated>2016-06-09T02:22:57.000Z</updated>
+  <updated>2016-06-09T02:27:47.000Z</updated>
   <id>http://larens.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://larens.github.io/post/Design-versions-of-those-things/"/>
     <id>http://larens.github.io/post/Design-versions-of-those-things/</id>
     <published>2016-03-08T01:50:59.000Z</published>
-    <updated>2016-06-09T02:22:57.000Z</updated>
+    <updated>2016-06-09T02:27:47.000Z</updated>
     
     <content type="html">&lt;p&gt;你还在纠结于老板要退回第N版的痛苦么？希望这篇文章能帮你简单掌控自己的设计稿.&lt;br&gt;    小明最近在做一个App设计，当初步设计完成评审时，各种大神就会亲自莅临指导各种戳屏：『这里往上些，Logo要大，再大，颜色要醒目！！』经过1个小时的修改后，大神们往往会反思说：『嗯，这样效果是一般，还是改回第一稿吧！』……而当我们习惯不停的ctrl+S之后，竟然让我们回退到第一版本！臣妾…请等臣妾重新调一遍吧！ &lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -142,7 +142,7 @@
     <link href="http://larens.github.io/post/IOS-3D-touch/"/>
     <id>http://larens.github.io/post/IOS-3D-touch/</id>
     <published>2015-10-18T03:24:12.000Z</published>
-    <updated>2016-06-09T02:24:02.000Z</updated>
+    <updated>2016-06-09T02:27:25.000Z</updated>
     
     <content type="html">&lt;p&gt;3D Touch给iOS 9的用户带来更多的互动维度。在支持的设备上，人们可以通过按压主屏幕应用程序的图标快速选择特定的操作。在应用程序中，人们可以使用压力来获得项目的预览，可以在一个单独的视图中打开该项目，并获得相关的操作。（欲了解更多关于加入支持3D Touch的代码，请参阅 &lt;a href=&quot;https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/index.html#//apple_ref/doc/uid/TP40016543&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;在iPhone上采用3D Touch&lt;/a&gt;。）&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Peek和Pop&quot;&gt;&lt;a href=&quot;#Peek和Pop&quot; class=&quot;headerlink&quot; title=&quot;Peek和Pop&quot;&gt;&lt;/a&gt;Peek和Pop&lt;/h2&gt;&lt;p&gt;Peek可以让用户在没有打开应用的情况下预览的应用所支持的快捷操作。轻压有支持Peek的应用图标可以显示一个矩形的Pop视图（有时称为提示）。&lt;br&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/3dtouch/365489.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
