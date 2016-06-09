@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://larens.github.io/"/>
-  <updated>2016-06-09T02:11:50.000Z</updated>
+  <updated>2016-06-09T02:19:18.000Z</updated>
   <id>http://larens.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://larens.github.io/post/Design-versions-of-those-things/"/>
     <id>http://larens.github.io/post/Design-versions-of-those-things/</id>
     <published>2016-03-08T01:50:59.000Z</published>
-    <updated>2016-06-09T02:11:50.000Z</updated>
+    <updated>2016-06-09T02:19:18.000Z</updated>
     
     <content type="html">&lt;p&gt;你还在纠结于老板要退回第N版的痛苦么？希望这篇文章能帮你简单掌控自己的设计稿.&lt;br&gt;    小明最近在做一个App设计，当初步设计完成评审时，各种大神就会亲自莅临指导各种戳屏：『这里往上些，Logo要大，再大，颜色要醒目！！』经过1个小时的修改后，大神们往往会反思说：『嗯，这样效果是一般，还是改回第一稿吧！』……而当我们习惯不停的ctrl+S之后，竟然让我们回退到第一版本！臣妾…请等臣妾重新调一遍吧！ &lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -69,7 +69,7 @@
 &lt;li&gt;服务器成本不低； &lt;/li&gt;
 &lt;li&gt;定期管理员对数据备份； &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&quot;二、SVN-Git系统&quot;&gt;&lt;a href=&quot;#二、SVN-Git系统&quot; class=&quot;headerlink&quot; title=&quot;二、SVN/Git系统&quot;&gt;&lt;/a&gt;二、SVN/Git系统&lt;/h2&gt;&lt;h3 id=&quot;2-1-SVN系统&quot;&gt;&lt;a href=&quot;#2-1-SVN系统&quot; class=&quot;headerlink&quot; title=&quot;2.1 SVN系统&quot;&gt;&lt;/a&gt;2.1 SVN系统&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/Version/508988.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;我上一家公司就使用的SVN系统来备份文件和代码的，那么什么是SVN呢？看看来自百度的说明：&lt;br&gt;     SVN是Subversion的简称，是一个开放源代码的版本控制系统，相较于RCS、CVS，它采用了分支管理系统，它的设计目标就是取代CVS。互联网上很多版本控制服务已从CVS迁移到Subversion。&lt;br&gt;    SVN可以满足各种企业VPN的要求，通过为公司内部网络、远程和移动用户、分支机构和合作伙伴提供基于Internet的安全连接。所以，我们可以将SVN看成是VPN、防火墙、基于企业策略的信息管理软件集成在一起的Internet安全的综合解决方案。在这样一个网络系统中，所有互联网服务器端和客户端都是安全的，并有一个信息管理机制以不断地通过这个外部网络环境动态地分析及满足客户的特定带宽需求。 &lt;/p&gt;
+&lt;h2 id=&quot;二、SVN-Git系统&quot;&gt;&lt;a href=&quot;#二、SVN-Git系统&quot; class=&quot;headerlink&quot; title=&quot;二、SVN/Git系统&quot;&gt;&lt;/a&gt;二、SVN/Git系统&lt;/h2&gt;&lt;h3 id=&quot;2-1-SVN系统&quot;&gt;&lt;a href=&quot;#2-1-SVN系统&quot; class=&quot;headerlink&quot; title=&quot;2.1 SVN系统&quot;&gt;&lt;/a&gt;2.1 SVN系统&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/Version/508988.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;我上一家公司就使用的SVN系统来备份文件和代码的，那么什么是SVN呢？看看来自百度的说明：&lt;br&gt;     SVN是Subversion的简称，是一个开放源代码的版本控制系统，相较于RCS、CVS，它采用了分支管理系统，它的设计目标就是取代CVS。互联网上很多版本控制服务已从CVS迁移到Subversion。&lt;br&gt;    SVN可以满足各种企业VPN的要求，通过为公司内部网络、远程和移动用户、分支机构和合作伙伴提供基于Internet的安全连接。所以，我们可以将SVN看成是VPN、防火墙、基于企业策略的信息管理软件集成在一起的Internet安全的综合解决方案。在这样一个网络系统中，所有互联网服务器端和客户端都是安全的，并有一个信息管理机制以不断地通过这个外部网络环境动态地分析及满足客户的特定带宽需求。 &lt;/p&gt;
 &lt;p&gt;通过上面2段其实就能明白，SVN服务系统是一个基于公司内部网络搭建的网络系统，可以通过一些安全协议来传输文件，如何搭建的大家可以自行去搜索（主要都是我们公司技术师傅搞定，我们用就好了），这种服务其实比较方便，管理员只有搭好服务，我们使用各种SVN的软件去同步文件就好了，每当你的本地文件修改时间新与服务器，就会覆盖之前的文件生成新的版本，当你本地的文件丢失，也可以从服务器下载回来。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;SVN的优点：&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -86,7 +86,7 @@
 &lt;li&gt;如果是我们做设计用，需要很大的硬盘空间，因为设计稿的版本和文件，会日积月累的巨大无比； &lt;/li&gt;
 &lt;li&gt;权限管理比较麻烦，如果你的权限不够，需要访问其他文件的时候都需要重新设定； &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&quot;2-2-Git系统&quot;&gt;&lt;a href=&quot;#2-2-Git系统&quot; class=&quot;headerlink&quot; title=&quot;2.2 Git系统&quot;&gt;&lt;/a&gt;2.2 Git系统&lt;/h3&gt;&lt;p&gt;相信做互联网产品设计相关的朋友基本都听说过这个大名鼎鼎的代码管理网站Github，全球工程师都在使用的网站,其实也是可以给我们设计师来使用的，因为它提供了图片对比服务，可以在线查看前后版本的不同，如图：&lt;br&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/Version/508991.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;可以通过 「Swipe」左右拖动数轴来即时查看前后的区别，十分方便，同时你可以在本地设置github的服务，上传新版本的时候，可以添加这个版本的注释。 &lt;/p&gt;
+&lt;h3 id=&quot;2-2-Git系统&quot;&gt;&lt;a href=&quot;#2-2-Git系统&quot; class=&quot;headerlink&quot; title=&quot;2.2 Git系统&quot;&gt;&lt;/a&gt;2.2 Git系统&lt;/h3&gt;&lt;p&gt;相信做互联网产品设计相关的朋友基本都听说过这个大名鼎鼎的代码管理网站Github，全球工程师都在使用的网站,其实也是可以给我们设计师来使用的，因为它提供了图片对比服务，可以在线查看前后版本的不同，如图：&lt;br&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/Version/508991.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;可以通过 「Swipe」左右拖动数轴来即时查看前后的区别，十分方便，同时你可以在本地设置github的服务，上传新版本的时候，可以添加这个版本的注释。 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Git系统的优点： &lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;方便的版本控制，软件同步； &lt;/li&gt;
@@ -128,7 +128,7 @@
     
     </summary>
     
-      <category term="design" scheme="http://larens.github.io/categories/design/"/>
+      <category term="Design" scheme="http://larens.github.io/categories/Design/"/>
     
     
       <category term="技巧" scheme="http://larens.github.io/tags/%E6%8A%80%E5%B7%A7/"/>
@@ -142,7 +142,7 @@
     <link href="http://larens.github.io/post/11-tips-for-prototyping-with-sketch/"/>
     <id>http://larens.github.io/post/11-tips-for-prototyping-with-sketch/</id>
     <published>2015-01-25T01:02:54.000Z</published>
-    <updated>2016-06-09T01:52:51.000Z</updated>
+    <updated>2016-06-09T02:18:00.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/11tips/178041.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;波希米亚的朋友创建了Sketch软件，让你的原型制作更顺手。这里有一些 Sketch原型使用小技巧可以让你的设计工作更顺畅，快速和轻松。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;1-快速选择画布尺寸&quot;&gt;&lt;a href=&quot;#1-快速选择画布尺寸&quot; class=&quot;headerlink&quot; title=&quot;1.快速选择画布尺寸&quot;&gt;&lt;/a&gt;1.快速选择画布尺寸&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/11tips/178042.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;好吧，这个小技巧也许不应该出现在这个名单上，但它是最实用和重要的。Sketch提供了许多预定义画布，你只要输入快捷键“A”并选择需要的画布就可以了。 &lt;/p&gt;
@@ -166,7 +166,7 @@
     
     </summary>
     
-      <category term="design" scheme="http://larens.github.io/categories/design/"/>
+      <category term="Design" scheme="http://larens.github.io/categories/Design/"/>
     
     
       <category term="译文" scheme="http://larens.github.io/tags/%E8%AF%91%E6%96%87/"/>
@@ -182,7 +182,7 @@
     <link href="http://larens.github.io/post/Improve-design-efficiency-script/"/>
     <id>http://larens.github.io/post/Improve-design-efficiency-script/</id>
     <published>2014-12-26T23:18:01.000Z</published>
-    <updated>2016-06-09T01:18:39.000Z</updated>
+    <updated>2016-06-09T02:18:05.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;经常遇到的困境&quot;&gt;&lt;a href=&quot;#经常遇到的困境&quot; class=&quot;headerlink&quot; title=&quot;经常遇到的困境&quot;&gt;&lt;/a&gt;经常遇到的困境&lt;/h3&gt;&lt;p&gt;做为一名设计师，我们每天浪费了很多的时间在琐碎的零活上。以前我们Instagram中的设计师，需要很多时间来查找素材，去完善一个PSD或Sketch文件。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/Improve-design-efficiency-script/162116.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;你可能也经常处理上图界面中的头像：首先在Photoshop中创建一个图形（上图是一个圆形形状），然后访问一些比较好的素材网站（我们一般都访问自己的instagram.com），找到你想使用的照片，将它拖到Photoshop里，然后还要调整大小并移动到合适的位置。&lt;br&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/Improve-design-efficiency-script/162102.jpeg&quot; alt=&quot;&quot;&gt;&lt;br&gt;如果再制作上面这个更复杂的照片墙呢？至少要还循环刚才的步骤5次，但是如果更多的图片怎么办？&lt;br&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/Improve-design-efficiency-script/162105.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;现在我们创建了一些工具，能简化上面的流程：&quot;&gt;&lt;a href=&quot;#现在我们创建了一些工具，能简化上面的流程：&quot; class=&quot;headerlink&quot; title=&quot;现在我们创建了一些工具，能简化上面的流程：&quot;&gt;&lt;/a&gt;现在我们创建了一些工具，能简化上面的流程：&lt;/h3&gt;&lt;ol&gt;
@@ -219,7 +219,7 @@
     
     </summary>
     
-      <category term="design" scheme="http://larens.github.io/categories/design/"/>
+      <category term="Design" scheme="http://larens.github.io/categories/Design/"/>
     
     
       <category term="译文" scheme="http://larens.github.io/tags/%E8%AF%91%E6%96%87/"/>
