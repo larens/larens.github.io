@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://larens.github.io/"/>
-  <updated>2016-06-09T02:19:18.000Z</updated>
+  <updated>2016-06-09T02:22:57.000Z</updated>
   <id>http://larens.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://larens.github.io/post/Design-versions-of-those-things/"/>
     <id>http://larens.github.io/post/Design-versions-of-those-things/</id>
     <published>2016-03-08T01:50:59.000Z</published>
-    <updated>2016-06-09T02:19:18.000Z</updated>
+    <updated>2016-06-09T02:22:57.000Z</updated>
     
     <content type="html">&lt;p&gt;你还在纠结于老板要退回第N版的痛苦么？希望这篇文章能帮你简单掌控自己的设计稿.&lt;br&gt;    小明最近在做一个App设计，当初步设计完成评审时，各种大神就会亲自莅临指导各种戳屏：『这里往上些，Logo要大，再大，颜色要醒目！！』经过1个小时的修改后，大神们往往会反思说：『嗯，这样效果是一般，还是改回第一稿吧！』……而当我们习惯不停的ctrl+S之后，竟然让我们回退到第一版本！臣妾…请等臣妾重新调一遍吧！ &lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -56,7 +56,7 @@
 &lt;li&gt;如果误删或格式化，文件难以找回； &lt;/li&gt;
 &lt;li&gt;硬盘的容量有限，适当的需要扩容等措施； &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&quot;1-3-私有云服务&quot;&gt;&lt;a href=&quot;#1-3-私有云服务&quot; class=&quot;headerlink&quot; title=&quot;1.3 私有云服务&quot;&gt;&lt;/a&gt;1.3 私有云服务&lt;/h3&gt;&lt;p&gt;感谢@BOXSHEEP 童鞋提醒这个方法，如果公司的技术比较强大可以尝试自己搭建私有云服务，相比于网盘来讲会更安全，而较github来讲速度应该会好一些，毕竟不用翻墙，具体的搭建方法我这里就不列举了，可以参考这篇文章的介绍： &lt;a href=&quot;http://www.iplaysoft.com/seafile.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Seafile - 自己动手搭建类似 Dropbox 的个人/团队/公司专属私有文件同步服务 (云存储网盘)&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/Version/508924.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1-3-私有云服务&quot;&gt;&lt;a href=&quot;#1-3-私有云服务&quot; class=&quot;headerlink&quot; title=&quot;1.3 私有云服务&quot;&gt;&lt;/a&gt;1.3 私有云服务&lt;/h3&gt;&lt;p&gt;感谢@BOXSHEEP 童鞋提醒这个方法，如果公司的技术比较强大可以尝试自己搭建私有云服务，相比于网盘来讲会更安全，而较github来讲速度应该会好一些，毕竟不用翻墙，具体的搭建方法我这里就不列举了，可以参考这篇文章的介绍： &lt;a href=&quot;http://www.iplaysoft.com/seafile.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Seafile - 自己动手搭建类似 Dropbox 的个人/团队/公司专属私有文件同步服务 (云存储网盘)&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/Version/510924.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;私有云的优点： &lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;支持多种设备连接备份； &lt;/li&gt;
@@ -134,6 +134,63 @@
       <category term="技巧" scheme="http://larens.github.io/tags/%E6%8A%80%E5%B7%A7/"/>
     
       <category term="设计" scheme="http://larens.github.io/tags/%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iOS人机界面指南-3D Touch</title>
+    <link href="http://larens.github.io/post/IOS-3D-touch/"/>
+    <id>http://larens.github.io/post/IOS-3D-touch/</id>
+    <published>2015-10-18T03:24:12.000Z</published>
+    <updated>2016-06-09T02:24:02.000Z</updated>
+    
+    <content type="html">&lt;p&gt;3D Touch给iOS 9的用户带来更多的互动维度。在支持的设备上，人们可以通过按压主屏幕应用程序的图标快速选择特定的操作。在应用程序中，人们可以使用压力来获得项目的预览，可以在一个单独的视图中打开该项目，并获得相关的操作。（欲了解更多关于加入支持3D Touch的代码，请参阅 &lt;a href=&quot;https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/index.html#//apple_ref/doc/uid/TP40016543&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;在iPhone上采用3D Touch&lt;/a&gt;。）&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Peek和Pop&quot;&gt;&lt;a href=&quot;#Peek和Pop&quot; class=&quot;headerlink&quot; title=&quot;Peek和Pop&quot;&gt;&lt;/a&gt;Peek和Pop&lt;/h2&gt;&lt;p&gt;Peek可以让用户在没有打开应用的情况下预览的应用所支持的快捷操作。轻压有支持Peek的应用图标可以显示一个矩形的Pop视图（有时称为提示）。&lt;br&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/3dtouch/365489.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Peek: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当用户轻按下出现内容，手指抬起时消失 。&lt;/li&gt;
+&lt;li&gt;首先打开的是一个叫「Pop视图」的详细内容 -当用户按下更深一点则显示Peek视图 。&lt;/li&gt;
+&lt;li&gt;用户在Peek视图向上滚动，就可以看到提供相关内容的快捷操作。 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当用户轻按屏幕，项目支持进一步互动可通过显示一个矩形的视图来暗示。Pop视图应足够大，以便用户的手指不会遮挡内容和详细，让用户决定是否按得更深一些，来查看Peek视图。 &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;使用Peek提供即时的丰富内容预览。&lt;/strong&gt;它为用户提供关于增加他们的了解当前项目信息最好的方式。例如，用户可以使用Peek功能，帮助他们决定在Safari中打开网页或与好友分享链接之前预览邮件中的URL网页内容。在表视图中，Peek向用户展示一条详细的信息视图。 &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为每一个Peek视图提供Pop视图。&lt;/strong&gt;即使Peek为用户提供了他们最需要的信息，你也应该让用户过渡到Pop视图，再决定是回到当前任务还是从当前的任务中切换出来。Pop视图应该是跟他们点击该项目得到的视图相同。 &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不要启用Peek和编辑菜单为一样的项目。&lt;/strong&gt;这两项功能启用了一个项目时，会让人迷惑不解。（欲了解更多关于编辑菜单，请参阅 &lt;a href=&quot;https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/EditMenu.html#//apple_ref/doc/uid/TP40006556-CH46-SW1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;编辑菜单&lt;/a&gt;。） &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在Peek视图中，避免元素看起来像按钮。&lt;/strong&gt;如果当用户抬起手指来点击看起来像一个按钮元素时，Peek视图会消失。 &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;如果合适，请为Peek提供快捷操作。&lt;/strong&gt;在Peek视图中，用户可以快速滚动显示到与该项目相关的操作。例如，在邮件中使用Peek视图的快捷操作包括「全部回复」，「转发」和「移动邮件」。不是每个Peek都需要快捷操作，但如果你已经提供了自定义触摸并持有操作的项目，最好的做法是提供在按住项目时替换触摸Peek视图相同的操作。（请注意，在Peek视图中自动提供了Web视图的快捷操作。） &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不要把使用Peek作为项目具体行动的唯一方法。&lt;/strong&gt;并非每个设备都支持Peek视图和Pop视图，有些用户还可能会选择关闭3D触控功能，所以它必须找到其他的方法来使Peek功能在你的应用程序中可用。当你的应用程序在较旧的设备上运行时，用户可以在视图中找到并且触发和点击跟Peek视图中一样的快捷操作。 &lt;/p&gt;
+&lt;h2 id=&quot;主屏幕快捷操作&quot;&gt;&lt;a href=&quot;#主屏幕快捷操作&quot; class=&quot;headerlink&quot; title=&quot;主屏幕快捷操作&quot;&gt;&lt;/a&gt;主屏幕快捷操作&lt;/h2&gt;&lt;p&gt;主屏幕上快捷操作为用户提供了一个方便的方法，可以从主屏幕的应用程序来执行有用的、特定的操作。&lt;br&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/3dtouch/365492.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;主屏幕上的快捷操作： &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当用户在主屏幕上用比触摸更深的按住应用图标就可以显示 &lt;/li&gt;
+&lt;li&gt;显示简短的标题，图标和你提供的副标题 &lt;/li&gt;
+&lt;li&gt;不支持其他自定义内容 &lt;/li&gt;
+&lt;li&gt;当您的应用程序更新，可以在显示更新信息 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;使用主屏幕快捷操作应提供富有吸引力的，高价值的任务。&lt;/strong&gt;例如，用户可以在没有打开地图应用程序就搜索当前位置的附近或获取回家的路线。每个应用程序在主屏幕上提供的快捷操作至少有一个有用的任务; 你最多可以提供四个快捷操作。 &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;避免使用主屏幕上的快捷操作来缓解您的应用程序的导航问题。&lt;/strong&gt;如果是因为用户访问你的应用程序的重要内容很困难或耗费时间，来使用主屏幕快捷操作，那么首先应该解决的应该是应用程序的导航问题，使所有用户受益。接下来，再专注优化主屏幕上的快捷操作，深层链接到您的应用程序更有用的，有创造性的任务。 &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;应避免更改主屏幕快捷操作方式让用户很难预测。&lt;/strong&gt;让用户快速理解是基于事件或上下文的改变更新是最好的方式。例如，它很有意义，在你的应用中一天时间里或在用户设置改变时，更新是基于用户当前的位置或最近的活动。 &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不要使用主屏幕上快捷操作来通知用户。&lt;/strong&gt;iOS 用户希望从其他途径获取通知。（来了解这些方法，请参阅 &lt;a href=&quot;https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/NotificationCenter.html#//apple_ref/doc/uid/TP40006556-CH39-SW1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;通知&lt;/a&gt;）。 &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为每个主屏幕上的快捷操作设置模板图标，并提供简明的标题（和副标题）。&lt;/strong&gt;标题应表达操作的结果; 例如，「回家」，「新建联系人」和「新邮件」。为用户提供更多的内容您也可以提供可选的副标题。例如，邮件使用副标题，告诉用户在VIP主屏幕快捷操作是否有的任何未读邮件。不要在标题和副标题显示您的应用程序名称和任何无关的信息，并要尽量采取本土化的文字说明。 &lt;/p&gt;
+&lt;p&gt;保持标题尽可能短以避免系统截断非常重要，这会帮助用户快速理解快捷操作。如果你提供一个副标题，系统因为标题太长而截断，就无法放在同一行; 如果没有副标题，系统会把一个长标题折叠到第二行。 &lt;/p&gt;
+&lt;p&gt;您可以从许多系统提供的模板图标中选择，也可以创建自定义模板图标。有关图标大小，填充和定位的详细指导，可以下载主屏幕快捷操作图标模板（附件中）。若要了解更多有关设计模板图标，请参阅&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/BarIcons.html#//apple_ref/doc/uid/TP40006556-CH21-SW1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;模板图标&lt;/a&gt;。 &lt;/p&gt;
+&lt;p&gt;系统会自动的在图标左侧或右侧显示快捷操作列表，这取决于用户主屏幕上的应用图标的位置。（列表中图标的位置，文本总是左对齐的。）下面你可以看到在主屏幕上各种快捷操作的例子。&lt;br&gt;&lt;img src=&quot;http://o83cm5bq7.bkt.clouddn.com/images/3dtouch/365493.png&quot; alt=&quot;&quot;&gt;&lt;br&gt; 原文地址：&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/3DTouch.html#//apple_ref/doc/uid/TP40006556-CH71-SW1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;iOS Human Interface Guidelines-3D Touch&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;3D Touch给iOS 9的用户带来更多的互动维度。在支持的设备上，人们可以通过按压主屏幕应用程序的图标快速选择特定的操作。在应用程序中，人们可以使用压力来获得项目的预览，可以在一个单独的视图中打开该项目，并获得相关的操作。（欲了解更多关于加入支持3D Touch的代码，请参阅 &lt;a href=&quot;https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/index.html#//apple_ref/doc/uid/TP40016543&quot;&gt;在iPhone上采用3D Touch&lt;/a&gt;。）&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Design" scheme="http://larens.github.io/categories/Design/"/>
+    
+    
+      <category term="译文" scheme="http://larens.github.io/tags/%E8%AF%91%E6%96%87/"/>
+    
+      <category term="设计" scheme="http://larens.github.io/tags/%E8%AE%BE%E8%AE%A1/"/>
+    
+      <category term="规范" scheme="http://larens.github.io/tags/%E8%A7%84%E8%8C%83/"/>
     
   </entry>
   
